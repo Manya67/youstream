@@ -14,7 +14,7 @@ const SearchBar = () => {
         </div>
         <input
           type="text"
-          className={`h-full border-[1px]  w-full px-4 py-1 outline-none ${
+          className={`h-full border-[1px] w-full px-4 py-1 outline-none ${
             searchClicked
               ? "border-blue-700 border-l-0"
               : "border-l-[1px] rounded-l-full"
@@ -27,7 +27,7 @@ const SearchBar = () => {
             setSearchClicked(false);
           }}
         />
-        <div className="bg-gray-100 flex justify-center items-center h-full rounded-r-full text-center border-[1px] px-4 py-1">
+        <div className="bg-gray-100 flex justify-center items-center h-full rounded-r-full text-center border-[1px] border-l-0 px-4 py-1">
           <RiSearchLine size={22} />
         </div>
       </div>

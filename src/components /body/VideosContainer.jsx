@@ -4,7 +4,7 @@ import Videos from "./Videos";
 
 const VideosContainer = () => {
   return (
-    <div className="w-[84%] h-full p-3 overflow-hidden">
+    <div className="w-[84%] h-full p-3 overflow-hidden ">
       <Buttons />
       <Videos />
     </div>
